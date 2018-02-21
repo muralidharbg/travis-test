@@ -1,2 +1,5 @@
 language: c
-script: make && make test1 && make test2
+script:
+  - make
+  - make test1
+  - make test2
