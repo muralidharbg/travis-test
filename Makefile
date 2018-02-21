@@ -7,7 +7,7 @@ test1:
 
 test2: 
 	./hello_world < input2.txt > output2.txt
-	diff test2.expected output2.txt || cat output2.txt 
+	diff test2.expected output2.txt 
 
 clean:
 	rm hello_world output*.txt
