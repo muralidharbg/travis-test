@@ -9,6 +9,7 @@ int main()
 //   char name;
    scanf("%[^\n]s",name);
    if(name[0] == '\0'){
+		printf("asdasd\n");
       printf("Hello, World!\n");
    } else{
       printf("Hello, %s!\n",name);
